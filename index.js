@@ -12,6 +12,11 @@ app.get('/health', (req,res)=>{
     return res.status(200).json({message: "all is good"})
 })
 
+app.get('/feature1', (req,res) => {
+    return res.status(200).json({message: "feature1" })
+})
+
 app.listen(port, () =>{
     console.log('server is started at : ', port);
 })
+
