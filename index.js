@@ -12,8 +12,8 @@ app.get('/health', (req,res)=>{
     return res.status(200).json({message: "all is good"})
 })
 
-app.get('/feature1', (req,res) => {
-    return res.status(200).json({message: "feature1" })
+app.get('/contact', (req,res) => {
+    return res.status(200).json({message: "contact to ankush 9113140850" })
 })
 
 app.listen(port, () =>{
